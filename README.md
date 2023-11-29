@@ -3,26 +3,26 @@ Repo for running carla sim, and generating training data for Lidar perception mo
 
 ## CarlaScenarioRunner()
 Main class file for generating data from Carla Simulator
-SEE RunCarlaScenarioRunner.py for example
+<br>SEE RunCarlaScenarioRunner.py for example
 
 ### Initialize with Constructor:
 
 newClass = CarlaScenarioRunner(data_path = "file/path", intersection = "Intersection1")
-data_path: path to data output folder
-Valid Intersections: "Intersection1","Intersection2","Intersection3","Intersection4"
+<br>data_path: path to data output folder
+<br>Valid Intersections: "Intersection1","Intersection2","Intersection3","Intersection4"
 
 ### Spawn Sensors and Entities with:
 spawn_lidar(model)
-spawn_camera()
-spawn_vehicles(num_vehicles)
-spawn_pedestrian(num_pedestrians)
+<br>spawn_camera()
+<br>spawn_vehicles(num_vehicles)
+<br>spawn_pedestrian(num_pedestrians)
 
 ### Run simulation with:
 gather_simulation_data(sim_seconds)
 
 ## ScenarioAnnotationVisualizer()
 Visualization Class to display Lidar Pointclouds with drawn bounding boxes
-SEE End of file for run example
+<br>SEE End of file for run example
 
 ## drawBoundingPolygons.py
 Additional code which takes in instance segmentized Camera images, draws bounding polygons around vehicles and pedestrians, saves all annotated images as single video file
