@@ -22,3 +22,7 @@ SEE End of file for run example
 
 ## drawBoundingPolygons.py
 Additional code which takes in instance segmentized Camera images, draws bounding polygons around vehicles and pedestrians, saves all annotated images as single video file
+
+
+## Synchronous_mode.ipynb
+Jupter Notebook used during code development, contains useful methods for testing the framework with Carla
