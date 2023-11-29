@@ -11,7 +11,7 @@ newClass = CarlaScenarioRunner(data_path = "file/path", intersection = "Intersec
 data_path: path to data output folder
 Valid Intersections: "Intersection1","Intersection2","Intersection3","Intersection4"
 
-### spawn sensors and entities with:
+### Spawn Sensors and Entities with:
 spawn_lidar(model)
 spawn_camera()
 spawn_vehicles(num_vehicles)
