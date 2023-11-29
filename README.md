@@ -16,7 +16,7 @@ spawn_pedestrian(num_pedestrians)
 ### Run simulation with:
 gather_simulation_data(sim_seconds)
 
-## ScenarioAnnotationVisualizer.py
+## ScenarioAnnotationVisualizer()
 Visualization Class to display Lidar Pointclouds with drawn bounding boxes
 SEE End of file for run example
 
