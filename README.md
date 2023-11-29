@@ -5,9 +5,13 @@ Repo for running carla sim, and generating training data for Lidar perception mo
 Main class file for generating data from Carla Simulator
 SEE RunCarlaScenarioRunner.py for example
 
-### Initialize with data_path, and Intersection args
-Valid Intersection = "Intersection1","Intersection2","Intersection3","Intersection4"
-spawn sensors and entities with:
+### Initialize with Constructor:
+
+newClass = CarlaScenarioRunner(data_path = "file/path", intersection = "Intersection1")
+data_path: path to data output folder
+Valid Intersections: "Intersection1","Intersection2","Intersection3","Intersection4"
+
+### spawn sensors and entities with:
 spawn_lidar(model)
 spawn_camera()
 spawn_vehicles(num_vehicles)
